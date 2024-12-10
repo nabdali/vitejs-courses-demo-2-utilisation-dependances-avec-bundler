@@ -2,7 +2,7 @@ import './style.css';
 import javascriptLogo from './javascript.svg';
 import viteLogo from '/vite.svg';
 import { setupCounter } from './counter.js';
-import { arrayShuffle } from 'lodash/_arrayShuffle';
+import arrayShuffle from 'lodash/_arrayShuffle';
 
 document.querySelector('#app').innerHTML = `
   <div>
